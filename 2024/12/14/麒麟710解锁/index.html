@@ -209,6 +209,15 @@
 </script>
 
     
+        <div id="tcomment"></div>
+        <script src="/js/twikoo.all.min.js"></script>
+        <script>
+            twikoo.init(
+                Object.assign(JSON.parse(`{"cdn":{"js":"/js/twikoo.all.min.js"},"envId":"https://675cfbcbdf3c7d61c34ba8ec--commits.netlify.app/.netlify/functions/twikoo","region":"","path":"location.pathname","lang":"zh-CN"}`),
+                    { el: '#tcomment', path: eval('location.pathname') }
+                ));
+        </script>
+        
                     
               <br>
               <span></span>
